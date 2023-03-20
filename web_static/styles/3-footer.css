@@ -1,0 +1,9 @@
+footer{
+    background-color: #fff;
+    /* height: 7.57vh; */
+    height: 60px;
+    width: 100%;
+    border-top: solid 1px #cccccc;
+    text-align: center;
+    line-height: 60px;
+}

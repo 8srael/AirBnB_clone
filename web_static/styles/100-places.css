@@ -1,0 +1,146 @@
+.places h1{
+    font-size: 30px;
+    text-align: left;
+}
+
+.places .articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.places article{
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    
+}
+
+article h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Information task 8 */
+
+.articles_places_header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.price_by_night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF5A5F;
+    border: 4px#FF5A5F solid;
+    border-radius: 50%;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.information{
+    height: 80px;
+    margin-top: 8px;
+    border-top : 1px #DDDDDD solid;
+    border-bottom:1px #DDDDDD solid ;
+    display: flex;
+    justify-content: center;
+}
+
+.max_guest{
+    background-image: url('/images/icon_group.png');
+}
+
+.number_rooms{
+    background-image: url(/images/icon_bed.png);
+}
+
+.number_bathrooms{
+    background-image: url('/images/icon_bath.png');
+}
+
+.max_guest, .number_rooms, .number_bathrooms{
+    width: 100px;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column-reverse;
+    background-position-x: center;
+    background-position-y: -4px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.user{
+    margin: 15px 0;
+}
+
+/* Task 9 Full details */
+
+.places .amenities,
+.places .reviews{
+    width: 100%;
+    height: inherit;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.places .amenities h2,
+.places .reviews h2{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    border-bottom: #DDDDDD 1px solid;
+    text-align: left;
+
+}
+
+.places .reviews h3{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.places .reviews p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+.places .reviews ul,
+.places .amenities ul{
+    padding: 0;
+}
+
+.tv{
+    background-image: url(/images/icon_tv.png);
+}
+
+.wifi{
+    background-image: url(/images/icon_wifi.png);
+}
+
+.pets{
+    background-image: url(/images/icon_pets.png);
+}
+
+.tv,
+.wifi,
+.pets{
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-y : 8px ;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+
+
+
+
